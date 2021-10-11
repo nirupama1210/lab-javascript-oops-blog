@@ -42,9 +42,9 @@ remove.addEventListener('click',function(){
 var post=document.getElementById('post');
 post.addEventListener('click',function(){
     document.querySelector(".body-div2").style.display="flex";
-    
+
     var image=document.createElement('img');
-    image.src='./assets/javascript.png';
+    image.src='assets/javascript.png';
     var articlecardDiv=document.createElement('div');
     articlecardDiv.setAttribute('class','article-card');
     //document.getElementById('flashcard').appendChild(image);
