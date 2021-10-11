@@ -68,10 +68,11 @@ nav ul a {
 
 .article-card {
 	width: 320px;
-	margin: 30rem 0;
+	margin: 10rem 0;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
+	text-align: justify;
 }
 
 .article-card h1 {
@@ -95,6 +96,7 @@ nav ul a {
 	display: flex;
 	flex-direction: row ;
 	/* justify-content: space-between; */
+	width: max-content;
 	float: left;
 }
 
@@ -216,3 +218,4 @@ background: #6C63FF;
 border-radius: 4px;
 color: #FFFFFF;
 }
+
